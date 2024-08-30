@@ -115,7 +115,7 @@ class Solution {
 
 話不多說，我們先來看一下「映射法」的解題方式，首先，它會利用「Map」的「鍵值結構」來建立一個可用於比對的「樣版」；樣板的建立規則是以「陣列的索引值」作為「鍵值結構」中的「值」，再以「陣列的值」作為「鍵值結構」中的「鍵」，示意圖如下：
 
-![arrayToMap.png](pic/arrayToMap.png)
+![arrayToMap](pic/arrayToMap.png)
 
 在建立樣板以後，我們就可以藉由關鍵的方法：「[`containsKey(Object key)`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashMap.html#containsKey(java.lang.Object))」，以之來達到搜尋目標的目的，程式碼如下：
 
@@ -186,4 +186,5 @@ final Node<K,V> getNode(int hash, Object key) {
 
 - [Oracle Java® Platform, Standard Edition & Java Development Kit Version 11 API Specification](https://docs.oracle.com/en/java/javase/11/docs/api/)
 - [Adoptium, Eclipse Temurin™](https://adoptium.net/temurin/)
-- [Eclipse Adoptium - GitHub](https://github.com/adoptium)
+- [GitHub, Eclipse Adoptium, jdk11u](https://github.com/adoptium/jdk11u)
+- [GitHub, RickBsr, example-leetcode](https://github.com/rickbsr/example-leetcode)
