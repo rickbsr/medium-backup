@@ -29,9 +29,9 @@ tags: [Leetcode, Java, Easy]
 
 ###### 限制
 
-- 2 ≤ `nums.length` ≤ 10^4^
-- -10^9^ ≤ `num[i]` ≤ 10^9^
-- -10^9^ ≤ `target` ≤ 10^9^
+- 2 ≤ `nums.length` ≤ 10⁴
+- -10⁹ ≤ `num[i]` ≤ 10⁹
+- -10⁹ ≤ `target` ≤ 10⁹
 - 僅存在一組有效答案。
 
 ### 題目解析
